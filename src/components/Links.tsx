@@ -1,20 +1,12 @@
 import { useLanguage } from '../context/LanguageContext'
 
-// 社交链接 - 替换为你的链接
+// 社交链接
 const links = [
   {
     name: 'GitHub',
-    url: 'https://github.com/yourusername',
+    url: 'https://github.com/g4rkk',
     icon: '🐙'
-  },
-  {
-    name: 'LinkedIn',
-    url: 'https://linkedin.com/in/yourusername',
-    icon: '💼'
   }
-  // 可以添加更多链接
-  // { name: 'Twitter', url: 'https://twitter.com/yourusername', icon: '🐦' },
-  // { name: 'Blog', url: 'https://yourblog.com', icon: '📝' },
 ]
 
 export default function Links() {
