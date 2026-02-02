@@ -1,0 +1,51 @@
+{
+  "header": {
+    "checkProjects": "CHECK PROJECTS",
+    "language": "LANGUAGE"
+  },
+  "profile": {
+    "title": "PROFILE",
+    "name": "あなたの名前",
+    "bio": "ゲーム業界で5年以上の実務経験を持つフルスタック開発者です。アプリやWebなど幅広い分野でプロジェクトを担当してきました。",
+    "likes": "好きなこと",
+    "likesList": [
+      "ウェブ、アプリ、ゲームなどジャンルは問いません",
+      "誰かの役に立つものを作るのが好きです",
+      "創造的で挑戦的な仕事が好きです",
+      "レトロなデザインやキッチュなデザインが好きです"
+    ]
+  },
+  "contact": {
+    "title": "CONTACT",
+    "email": "your.email@example.com",
+    "button": "お問い合わせ",
+    "copied": "コピーしました！"
+  },
+  "skills": {
+    "title": "SKILLS"
+  },
+  "location": {
+    "title": "LOCATION",
+    "place": "TOKYO.JP",
+    "localTime": "現地時間"
+  },
+  "links": {
+    "title": "LINKS"
+  },
+  "projects": {
+    "title": "PROJECTS",
+    "dir": "C:\\> DIR",
+    "profileLabel": "プロフィール",
+    "profileDesc": "経歴 & スキル",
+    "categories": {
+      "game": "ゲームプロジェクト",
+      "gameDesc": "Unityを使ったゲーム開発",
+      "web": "ウェブプロジェクト",
+      "webDesc": "Reactを使ったWeb開発",
+      "app": "アプリプロジェクト",
+      "appDesc": "Flutterを使ったアプリ開発",
+      "other": "その他プロジェクト",
+      "otherDesc": "その他"
+    }
+  }
+}
