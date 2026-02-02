@@ -69,6 +69,9 @@ export default function Skills() {
             </span>
           </div>
         ))}
+        <div className="skills-hint">
+          {t.skills.hint}
+        </div>
       </div>
     </section>
   )

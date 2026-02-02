@@ -2,6 +2,7 @@ import Header from './components/Header'
 import Profile from './components/Profile'
 import Contact from './components/Contact'
 import Skills from './components/Skills'
+import Languages from './components/Languages'
 import Location from './components/Location'
 import Links from './components/Links'
 import Projects from './components/Projects'
@@ -17,10 +18,11 @@ function App() {
           <Profile />
         </div>
 
-        {/* 中列: Contact + Skills */}
+        {/* 中列: Contact + Skills + Languages */}
         <div className="column">
           <Contact />
           <Skills />
+          <Languages />
         </div>
 
         {/* 右列: Location + Links + Projects */}
