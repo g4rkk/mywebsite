@@ -279,6 +279,49 @@ body::before {
   color: var(--accent-green);
 }
 
+.skills-hint {
+  text-align: center;
+  color: var(--text-dim);
+  font-size: 0.85rem;
+  margin-top: 8px;
+  animation: blink 2s ease-in-out infinite;
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 0.5; }
+  50% { opacity: 1; }
+}
+
+/* ===== Languages ===== */
+.languages-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.language-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px 0;
+  border-bottom: 1px solid var(--border-dim);
+}
+
+.language-item:last-child {
+  border-bottom: none;
+}
+
+.language-name {
+  color: var(--text-primary);
+  font-size: 1.1rem;
+}
+
+.language-level {
+  color: var(--accent-green);
+  font-family: var(--font-pixel);
+  font-size: 0.6rem;
+}
+
 /* ===== Location ===== */
 .location-place {
   font-family: var(--font-pixel);
@@ -329,6 +372,12 @@ body::before {
   text-decoration: none;
   font-size: 1.5rem;
   transition: all 0.2s;
+}
+
+.link-item svg {
+  width: 28px;
+  height: 28px;
+  fill: currentColor;
 }
 
 .link-item:hover {

@@ -22,7 +22,20 @@
     "copied": "Copied!"
   },
   "skills": {
-    "title": "SKILLS"
+    "title": "SKILLS",
+    "hint": "← Click < > to see more skills →"
+  },
+  "languages": {
+    "title": "LANGUAGES",
+    "items": {
+      "ja": "Japanese",
+      "zh": "Chinese",
+      "en": "English"
+    },
+    "levels": {
+      "native": "Native",
+      "business": "Business"
+    }
   },
   "location": {
     "title": "LOCATION",

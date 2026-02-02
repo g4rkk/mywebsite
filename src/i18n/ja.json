@@ -22,7 +22,20 @@
     "copied": "コピーしました！"
   },
   "skills": {
-    "title": "SKILLS"
+    "title": "SKILLS",
+    "hint": "← < > をクリックして他のスキルを表示 →"
+  },
+  "languages": {
+    "title": "LANGUAGES",
+    "items": {
+      "ja": "日本語",
+      "zh": "中国語",
+      "en": "英語"
+    },
+    "levels": {
+      "native": "ネイティブ",
+      "business": "ビジネス"
+    }
   },
   "location": {
     "title": "LOCATION",
