@@ -1,8 +1,8 @@
 import { useLanguage } from '../context/LanguageContext'
 
 const languages = [
-  { code: 'ja', level: 'native' },
   { code: 'zh', level: 'native' },
+  { code: 'ja', level: 'nearNative' },
   { code: 'en', level: 'business' }
 ]
 

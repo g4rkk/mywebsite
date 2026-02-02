@@ -34,6 +34,7 @@
     },
     "levels": {
       "native": "ネイティブ",
+      "nearNative": "ネイティブに近い",
       "business": "ビジネス"
     }
   },
