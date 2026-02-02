@@ -1,0 +1,51 @@
+{
+  "header": {
+    "checkProjects": "CHECK PROJECTS",
+    "language": "LANGUAGE"
+  },
+  "profile": {
+    "title": "PROFILE",
+    "name": "Your Name",
+    "bio": "Full-stack developer with 5+ years of experience in the tech industry. Experienced in web, app, and game development across various domains.",
+    "likes": "What I Like",
+    "likesList": [
+      "Open to any genre - web, app, game development",
+      "Love creating things that help people",
+      "Enjoy creative and challenging work",
+      "Fond of retro and kitsch design aesthetics"
+    ]
+  },
+  "contact": {
+    "title": "CONTACT",
+    "email": "your.email@example.com",
+    "button": "Contact Me",
+    "copied": "Copied!"
+  },
+  "skills": {
+    "title": "SKILLS"
+  },
+  "location": {
+    "title": "LOCATION",
+    "place": "TOKYO.JP",
+    "localTime": "Local Time"
+  },
+  "links": {
+    "title": "LINKS"
+  },
+  "projects": {
+    "title": "PROJECTS",
+    "dir": "C:\\> DIR",
+    "profileLabel": "Profile",
+    "profileDesc": "Career & Skills",
+    "categories": {
+      "game": "Game Projects",
+      "gameDesc": "Game development with Unity",
+      "web": "Web Projects",
+      "webDesc": "Web development with React",
+      "app": "App Projects",
+      "appDesc": "App development with Flutter",
+      "other": "Other Projects",
+      "otherDesc": "Miscellaneous"
+    }
+  }
+}
