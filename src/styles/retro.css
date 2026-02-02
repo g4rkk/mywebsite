@@ -568,3 +568,27 @@ body::before {
 .copy-btn {
   transition: all 0.2s ease;
 }
+
+/* ===== Footer ===== */
+.footer {
+  margin-top: 40px;
+  padding: 20px;
+  text-align: right;
+  font-family: var(--font-terminal);
+  font-size: 1rem;
+  color: var(--text-dim);
+}
+
+.footer-content {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.footer-text {
+  color: var(--text-dim);
+}
+
+.footer-cursor {
+  color: var(--text-primary);
+}

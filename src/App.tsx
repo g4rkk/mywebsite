@@ -5,6 +5,7 @@ import Skills from './components/Skills'
 import Location from './components/Location'
 import Links from './components/Links'
 import Projects from './components/Projects'
+import Footer from './components/Footer'
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
           <Projects />
         </div>
       </main>
+      <Footer />
     </div>
   )
 }
