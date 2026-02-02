@@ -33,10 +33,9 @@ jobs:
       - name: Build
         run: npm run build
 
+      # NOTE: You need to enable GitHub Pages in repo Settings → Pages → Source → GitHub Actions
       - name: Setup Pages
         uses: actions/configure-pages@v4
-        with:
-          enablement: true
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
