@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { useLanguage } from '../context/LanguageContext'
 import CareerModal from './CareerModal'
+import ProfileModal from './ProfileModal'
 
 // 职业经历数据
 const projects = [
@@ -34,9 +35,12 @@ const projects = [
 export default function Projects() {
   const { t } = useLanguage()
   const [selectedCareer, setSelectedCareer] = useState<string | null>(null)
+  const [showProfile, setShowProfile] = useState(false)
 
   const handleClick = (projectId: string, isProfile?: boolean) => {
-    if (!isProfile) {
+    if (isProfile) {
+      setShowProfile(true)
+    } else {
       setSelectedCareer(projectId)
     }
   }
@@ -57,7 +61,7 @@ export default function Projects() {
             return (
               <div
                 key={project.id}
-                className={`project-item ${isProfile ? 'active' : 'clickable'}`}
+                className="project-item clickable"
                 onClick={() => handleClick(project.id, isProfile)}
               >
                 <div className="project-icon">{project.icon}</div>
@@ -88,6 +92,10 @@ export default function Projects() {
           careerId={selectedCareer}
           onClose={() => setSelectedCareer(null)}
         />
+      )}
+
+      {showProfile && (
+        <ProfileModal onClose={() => setShowProfile(false)} />
       )}
     </>
   )
