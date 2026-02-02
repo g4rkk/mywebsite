@@ -9,7 +9,7 @@ export default function Profile() {
       <div className="window-content">
         {/* 头像 */}
         <img
-          src="/images/avatar.jpg"
+          src={`${import.meta.env.BASE_URL}images/avatar.jpg`}
           alt="Profile"
           className="profile-image"
         />
