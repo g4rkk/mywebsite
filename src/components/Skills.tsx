@@ -17,7 +17,7 @@ const skillCategories = [
   },
   {
     name: 'Analytics/ML',
-    skills: ['Redash', 'LightGBM', 'KPI Design', 'Data Visualization']
+    skills: ['Redash', 'Python', 'LightGBM', 'KPI Design', 'Data Visualization']
   },
   {
     name: 'Others',

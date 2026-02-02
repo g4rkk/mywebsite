@@ -143,7 +143,7 @@ const careerDetails: Record<string, CareerEntry> = {
   other: {
     en: {
       company: 'TUOPIC Inc.',
-      period: '2017.01 ~ 2023.07',
+      period: '2020.01 ~ 2023.07',
       role: 'Founder / Representative',
       product: 'Video Production & Board Game E-commerce',
       description: 'Built revenue base for video production and launched new business during COVID-19.',
@@ -161,7 +161,7 @@ const careerDetails: Record<string, CareerEntry> = {
     },
     ja: {
       company: 'TUOPIC株式会社',
-      period: '2017年1月〜2023年7月',
+      period: '2020年1月〜2023年7月',
       role: '代表社員',
       product: '映像制作・ボードゲームEC事業',
       description: '映像制作の収益基盤の構築、およびコロナ禍での事業継続のため新規事業を立ち上げ',
