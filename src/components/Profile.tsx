@@ -7,9 +7,9 @@ export default function Profile() {
     <section className="window">
       <div className="window-title">{t.profile.title}</div>
       <div className="window-content">
-        {/* 头像 - 替换为你的图片 */}
+        {/* 头像 */}
         <img
-          src="https://placekitten.com/400/400"
+          src="/images/avatar.jpg"
           alt="Profile"
           className="profile-image"
         />

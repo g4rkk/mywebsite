@@ -1,27 +1,27 @@
 import { useState } from 'react'
 import { useLanguage } from '../context/LanguageContext'
 
-// 技能数据 - 替换为你的技能
+// 技能数据 - 根据简历更新
 const skillCategories = [
   {
-    name: 'Programming',
-    skills: ['TypeScript', 'JavaScript', 'Python', 'C#', 'Go']
+    name: 'Languages/FW',
+    skills: ['TypeScript', 'Node.js', 'NestJS', 'React', 'Python']
   },
   {
-    name: 'Frontend',
-    skills: ['React', 'Vue', 'Next.js', 'HTML/CSS']
+    name: 'Database',
+    skills: ['PostgreSQL', 'Oracle', 'SQL', 'RDB Design']
   },
   {
-    name: 'Backend',
-    skills: ['Node.js', 'Express', 'Django', 'PostgreSQL']
+    name: 'DevOps/Cloud',
+    skills: ['Docker', 'GitHub Actions', 'AWS', 'GCP', 'CI/CD']
   },
   {
-    name: 'Game Dev',
-    skills: ['Unity', 'Unreal Engine', 'Godot']
+    name: 'Analytics',
+    skills: ['Redash', 'SQL', 'KPI Design', 'Data Visualization']
   },
   {
-    name: 'Languages',
-    skills: ['Japanese (Native)', 'English (Fluent)', 'Chinese (B1)']
+    name: 'Others',
+    skills: ['Unity', 'Linux', 'Shell', 'Java', 'JavaScript']
   }
 ]
 
