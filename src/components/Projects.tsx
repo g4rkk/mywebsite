@@ -27,7 +27,7 @@ const projects = [
   {
     id: 'other',
     icon: '🎬',
-    period: '2017~2023',
+    period: '2020~2023',
   },
 ]
 
