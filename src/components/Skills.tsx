@@ -1,11 +1,11 @@
 import { useState } from 'react'
 import { useLanguage } from '../context/LanguageContext'
 
-// 技能数据 - 根据简历更新
+// 技能数据
 const skillCategories = [
   {
     name: 'Languages/FW',
-    skills: ['TypeScript', 'Node.js', 'NestJS', 'React', 'Python']
+    skills: ['TypeScript', 'Node.js', 'NestJS', 'React', 'Python', 'Ruby on Rails']
   },
   {
     name: 'Database',
@@ -16,12 +16,12 @@ const skillCategories = [
     skills: ['Docker', 'GitHub Actions', 'AWS', 'GCP', 'CI/CD']
   },
   {
-    name: 'Analytics',
-    skills: ['Redash', 'SQL', 'KPI Design', 'Data Visualization']
+    name: 'Analytics/ML',
+    skills: ['Redash', 'LightGBM', 'KPI Design', 'Data Visualization']
   },
   {
     name: 'Others',
-    skills: ['Unity', 'Linux', 'Shell', 'Java', 'JavaScript']
+    skills: ['Linux', 'Shell', 'Java', 'JavaScript']
   }
 ]
 
