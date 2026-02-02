@@ -5,14 +5,14 @@
   },
   "profile": {
     "title": "PROFILE",
-    "name": "Your Name",
-    "bio": "Full-stack developer with 5+ years of experience in the tech industry. Experienced in web, app, and game development across various domains.",
-    "likes": "What I Like",
+    "name": "CHEN YUQING",
+    "bio": "Web engineer with end-to-end experience in SaaS/enterprise systems, from requirements analysis to design, implementation, and operational improvements. Specialized in API/DB design, performance optimization, CI/CD, and data analytics using TypeScript/Node.js/NestJS for AI-powered mobile applications.",
+    "likes": "Goals",
     "likesList": [
-      "Open to any genre - web, app, game development",
-      "Love creating things that help people",
-      "Enjoy creative and challenging work",
-      "Fond of retro and kitsch design aesthetics"
+      "Understanding complex business domains while balancing technical validity and user value",
+      "Driving business requirements into working systems",
+      "KPI visualization, issue identification, and improvement for revenue/retention metrics",
+      "End-to-end ownership: requirements → design → implementation → testing → operations"
     ]
   },
   "contact": {
@@ -33,19 +33,19 @@
     "title": "LINKS"
   },
   "projects": {
-    "title": "PROJECTS",
+    "title": "CAREER",
     "dir": "C:\\> DIR",
     "profileLabel": "Profile",
     "profileDesc": "Career & Skills",
     "categories": {
-      "game": "Game Projects",
-      "gameDesc": "Game development with Unity",
-      "web": "Web Projects",
-      "webDesc": "Web development with React",
-      "app": "App Projects",
-      "appDesc": "App development with Flutter",
-      "other": "Other Projects",
-      "otherDesc": "Miscellaneous"
+      "game": "Isaac Inc.",
+      "gameDesc": "AI Partner Mobile App Development",
+      "web": "QuackShift Inc.",
+      "webDesc": "AI/DX Solution Development",
+      "app": "TechnoPro",
+      "appDesc": "Financial System Development",
+      "other": "TUOPIC Inc.",
+      "otherDesc": "Video Production & E-commerce"
     }
   }
 }

@@ -1,6 +1,6 @@
 import { useLanguage } from '../context/LanguageContext'
 
-// 项目数据 - 替换为你的项目
+// 职业经历数据
 const projects = [
   {
     id: 'profile',
@@ -9,23 +9,23 @@ const projects = [
   },
   {
     id: 'game',
-    icon: '🎮',
-    count: 4,
+    icon: '🤖',
+    period: '2025.02~',
   },
   {
     id: 'web',
-    icon: '🌐',
-    count: 2,
+    icon: '🧠',
+    period: 'Contract',
   },
   {
     id: 'app',
-    icon: '📱',
-    count: 1,
+    icon: '🏦',
+    period: '2023~2025',
   },
   {
     id: 'other',
-    icon: '📦',
-    count: 1,
+    icon: '🎬',
+    period: '2017~2023',
   },
 ]
 
@@ -55,8 +55,8 @@ export default function Projects() {
                   {isProfile
                     ? t.projects.profileLabel
                     : t.projects.categories[categoryKey]}
-                  {project.count && (
-                    <span className="project-count">({project.count})</span>
+                  {project.period && (
+                    <span className="project-count">({project.period})</span>
                   )}
                 </div>
                 <div className="project-desc">
