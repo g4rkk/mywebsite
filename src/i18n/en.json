@@ -34,6 +34,7 @@
     },
     "levels": {
       "native": "Native",
+      "nearNative": "Near Native",
       "business": "Business"
     }
   },
