@@ -59,7 +59,9 @@
       "app": "TechnoPro",
       "appDesc": "Financial System Development",
       "other": "TUOPIC Inc.",
-      "otherDesc": "Video Production & E-commerce"
+      "otherDesc": "Video Production & E-commerce",
+      "stockfast": "StockFast",
+      "stockfastDesc": "Investor Portfolio Tracking App"
     }
   }
 }

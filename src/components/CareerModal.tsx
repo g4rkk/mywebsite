@@ -140,6 +140,48 @@ const careerDetails: Record<string, CareerEntry> = {
       tech: ['JavaScript', 'Java', 'Oracle', 'Linux', 'Shell', 'SQL', 'JP1']
     }
   },
+  stockfast: {
+    en: {
+      company: 'Personal Project',
+      period: 'Personal',
+      role: 'Solo Developer',
+      product: 'StockFast',
+      productUrl: 'https://apps.apple.com/jp/app/stockfast/id6754393218',
+      description: 'A financial information app that tracks portfolio changes of world-renowned investors (Warren Buffett, George Soros, Ray Dalio, Michael Burry, etc.) in real-time.',
+      responsibilities: [
+        'Real-time notifications of portfolio changes by famous investors',
+        'Holdings list with market cap, quarter-over-quarter changes, new buys/sells highlighted',
+        'Cross-search by investor name, stock code, or ticker',
+        'Daily market news feed with bookmark functionality'
+      ],
+      achievements: [
+        'Released on the App Store',
+        'Visualizes SEC official 13F filing data for large investors\' holdings, market cap, and trading activity',
+        'Push notification alerts for instant updates'
+      ],
+      tech: ['React Native', 'Python', 'NestJS', 'Next.js']
+    },
+    ja: {
+      company: '個人プロジェクト',
+      period: '個人開発',
+      role: '個人開発',
+      product: 'StockFast',
+      productUrl: 'https://apps.apple.com/jp/app/stockfast/id6754393218',
+      description: '世界的著名投資家（ウォーレン・バフェット、ジョージ・ソロス、レイ・ダリオ、マイケル・バーリ等）のポートフォリオ変動をリアルタイムで追跡できる金融情報アプリ。SEC公式の13Fファイリングデータを基に、大口投資家の保有銘柄・時価総額・売買動向を可視化。',
+      responsibilities: [
+        '著名投資家のポートフォリオ変動をリアルタイム通知',
+        '保有銘柄リスト・時価総額・前期比変動・新規買い/売却をハイライト表示',
+        '投資家名・銘柄コード・ティッカーでの横断検索',
+        '日次マーケットニュース配信 + ブックマーク機能'
+      ],
+      achievements: [
+        'App Storeにてリリース済み',
+        'SEC公式13Fファイリングデータを基に大口投資家の保有銘柄・時価総額・売買動向を可視化',
+        'プッシュ通知による即時アラート機能を搭載'
+      ],
+      tech: ['React Native', 'Python', 'NestJS', 'Next.js']
+    }
+  },
   other: {
     en: {
       company: 'TUOPIC Inc.',
@@ -209,6 +251,18 @@ export default function CareerModal({ careerId, onClose }: CareerModalProps) {
                 <img
                   src={`${import.meta.env.BASE_URL}images/aimmy.png`}
                   alt="Aimmy"
+                  className="product-screenshot"
+                />
+              </a>
+            </div>
+          )}
+
+          {careerId === 'stockfast' && (
+            <div className="modal-product-image">
+              <a href={productUrl || '#'} target="_blank" rel="noopener noreferrer">
+                <img
+                  src={`${import.meta.env.BASE_URL}images/stockfast.png`}
+                  alt="StockFast"
                   className="product-screenshot"
                 />
               </a>

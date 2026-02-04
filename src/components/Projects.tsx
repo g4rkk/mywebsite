@@ -30,6 +30,11 @@ const projects = [
     icon: '🎬',
     period: '2020~2023',
   },
+  {
+    id: 'stockfast',
+    icon: '📈',
+    period: 'Personal',
+  },
 ]
 
 export default function Projects() {
