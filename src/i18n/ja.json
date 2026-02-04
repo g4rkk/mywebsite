@@ -59,7 +59,9 @@
       "app": "テクノプロ",
       "appDesc": "金融システム開発",
       "other": "TUOPIC株式会社",
-      "otherDesc": "映像制作・EC事業"
+      "otherDesc": "映像制作・EC事業",
+      "stockfast": "StockFast",
+      "stockfastDesc": "著名投資家ポートフォリオ追跡アプリ"
     }
   }
 }
